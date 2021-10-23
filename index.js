@@ -65,13 +65,13 @@ app.post('/create_contact',function(req,resp){
     Contact.create({
         name:req.body.name,
         phone_no:req.body.phone_no
-    },function(err,newcontact){
+    },function(err,Newcontact){
         if (err){
             console.log("Error in creating contacts!!")
-            return;
+            return resp.redirect('/error-creating-contact');
         }
-        console.log("*********",newcontact);
-        return resp.redirect('/contacts');
+        console.log("*********",Newcontact);
+        return resp.redirect('back');
     })
     
 })
