@@ -1,10 +1,10 @@
 const mongoose = require ('mongoose')
 const contactschema=new mongoose.Schema({
-    name:{
+    ContactName:{
         type:String,
         required:true
     },
-    phone_no:{
+    ContactPhone_no:{
         type:String,
         required:true
     },

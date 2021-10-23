@@ -63,8 +63,8 @@ app.post('/create_contact',function(req,resp){
     // console.log(req.body)
     // contact_list.push(req.body)
     Contact.create({
-        name:req.body.name,
-        phone_no:req.body.phone_no
+        ContactName:req.body.name,
+        ContactPhone_no:req.body.phone_no
     },function(err,Newcontact){
         if (err){
             console.log("Error in creating contacts!!")
