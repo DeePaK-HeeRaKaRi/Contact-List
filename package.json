@@ -1,0 +1,16 @@
+{
+  "name": "contact_list",
+  "version": "1.0.0",
+  "description": "A Basic Contact List To Learn Express.js as a Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepak-Heerakari",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.8"
+  }
+}

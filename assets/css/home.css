@@ -1,0 +1,30 @@
+body{
+    background-color:blueviolet;
+}
+h2{
+    margin: -1.5rem 0px 0px 1.2rem;
+}
+
+#ph-na{
+    display: flex;
+    flex-direction: row;
+    margin-top:-1rem;
+}
+
+ul{
+    list-style: none;
+}
+#ph-na p{
+    background-color: burlywood;
+    width: 15%;
+}
+#ph-na a{
+     margin: 1rem 0px 0px -1rem ;
+    
+}
+#ph-na i{
+    color: black;
+}
+#na p:hover{
+    background-color: gray;
+}
