@@ -26,7 +26,7 @@ ul{
     color: black;
 }
 #na p:hover{
-    background-color: gray;
+    background-color: rgb(173, 72, 72);
 }
 #contact-form{
     margin: 0px 0px 0px 2.5rem;
